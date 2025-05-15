@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>İletişim - Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Barış Çalkentir</a>
+    </div>
+
+    <div class="right">
+      <a href="index.html">Ana Sayfa</a>
+      <a href="about.html">Hakkımda</a>
+      <a href="contact.html">İletişim</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="contact-section">
+      <h1>İletişim</h1>
+
+      <div class="contact-content">
+        <div class="contact-info">
+          <h2>İletişim Bilgileri</h2>
+          <ul>
+            <li><i class="fa-solid fa-envelope"></i> Email: baris@example.com</li>
+            <li><i class="fa-solid fa-phone"></i> Telefon: +90 555 123 4567</li>
+            <li><i class="fa-solid fa-location-dot"></i> Konum: İstanbul, Türkiye</li>
+          </ul>
+
+          <div class="social-links">
+            <a href="http://github.com" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="http://linkedin.com" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h2>Bana Ulaşın</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Ad Soyad</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Konu</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mesaj</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit">Gönder</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html> 
